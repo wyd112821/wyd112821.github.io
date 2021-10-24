@@ -119,8 +119,9 @@ keep-tablet()
   max-width: 100%;
   cursor: zoom-in;
   display: block;
-  box-shadow: 0 0 2px var(--shadow-color);
-  margin: 10px 0 2px;
+  box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.18);
+  border-radius: 3px;
+  margin: 1.5rem auto;
 }
 .markdown-body > table {
   border-spacing: 0;
